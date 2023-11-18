@@ -1,5 +1,5 @@
 # Portfolio
-## Click here to view: [Mohammad Azeem Portfolio](https://mohammadazeem.netlify.app)
+## Click here to view: [Mohammad Azeem Portfolio](https://mohammadazeem.in)
 \
 **Preview:**\
 \
