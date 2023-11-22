@@ -3,4 +3,4 @@
 \
 **Preview:**\
 \
-![Preview  of Mohammad Azeem's Portfolio](https://files.catbox.moe/m06ikn.png)
+![Preview  of Mohammad Azeem's Portfolio](https://files.catbox.moe/6qi7cb.png)
