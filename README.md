@@ -4,5 +4,6 @@
 **Preview:**\
 \
 
-[![Preview  of Mohammad Azeem's Portfolio](https://files.catbox.moe/6qi7cb.png)](https://mohammadazeem.in)
+<a href="https://mohammadazeem.in"><img src="https://files.catbox.moe/6qi7cb.png" alt="Preview  of Mohammad Azeem's Portfolio"></a>
+
 
