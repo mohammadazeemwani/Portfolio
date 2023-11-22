@@ -3,4 +3,6 @@
 \
 **Preview:**\
 \
-![Preview  of Mohammad Azeem's Portfolio](https://files.catbox.moe/6qi7cb.png)
+
+[!Preview  of Mohammad Azeem's Portfolio](https://files.catbox.moe/6qi7cb.png)(mohammadazeem.in)
+
