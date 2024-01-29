@@ -1,0 +1,193 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish:wght@300&family=Playfair+Display:wght@700&family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/myWork/index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="head_elem">
+        <div class="h_container">
+          <div class="my_logo">
+            <img
+              src="https://res.cloudinary.com/dqtcytdrk/image/upload/v1706413959/My%20Portfolio/my_logo_uwkeqn.svg"
+              alt=""
+            />
+          </div>
+          <div class="head_link">
+            <a href="/">
+              <span>
+                <p>my profile</p>
+              </span>
+              <img
+                src="https://res.cloudinary.com/dqtcytdrk/image/upload/v1706415582/My%20Portfolio/Vector_2_y3tlhw.svg"
+                alt=""
+              />
+            </a>
+            <a href="mailto:mohammadazeemwani@gmail.com">
+              <span>
+                <p>get in touch</p>
+              </span>
+              <img
+                src="https://res.cloudinary.com/dqtcytdrk/image/upload/v1706423695/My%20Portfolio/Vector_10_rxtcsw.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hump_down_curve">
+        <img
+          src="https://res.cloudinary.com/dqtcytdrk/image/upload/v1706413830/My%20Portfolio/dump_down_wave_lxclrq.svg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="whole">
+      <div class="focus">
+        <h1>My Work</h1>
+        <p id="typing-text"></p>
+      </div>
+      <div class="main">
+        <div class="main1" id="scroll_container">
+        <% projects.forEach(project => { %>
+          <a class="p_container" href="<%=project.reference_link%>">
+            <div class="p_img">
+              <img
+                src="<%=project.img_url%>"
+              />
+            </div>
+            <div class="p_title pc">
+              <h2><%=project.title%></h2>
+            </div>
+            <div class="p_description pc">
+              <p>
+                <%=project.description%>
+              </p>
+            </div>
+          </a>
+        <% }); %>
+        </div>
+
+        <div class="main2">
+          <div class="main2_wrap">
+            <h2>Look Forward</h2>
+            <p>
+              With years of expertise in Development I bridge the gap between
+              your hazy visions into tangible creations.
+            </p>
+            <div class="illustration">
+              <img
+                src="https://res.cloudinary.com/dqtcytdrk/image/upload/v1706531510/My%20Portfolio/myWork%20-%20Projects/ba1a3a13-e49a-4fe9-b64e-27687028d858-PhotoRoom_1-min_lpgkee.webp"
+                alt=""
+              />
+            </div>
+            <p>
+              Got a creative itch that needs scratching? Lets get things done
+            </p>
+            <div class="anchor_btn">
+              <a href="">Contact me</a>
+              <div>
+                <img
+                  src="https://res.cloudinary.com/dqtcytdrk/image/upload/v1706426300/My%20Portfolio/Arrow_1_pldwr0.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div id="illustration_wrap">
+            <img
+              src="https://res.cloudinary.com/dqtcytdrk/image/upload/v1706531510/My%20Portfolio/myWork%20-%20Projects/ba1a3a13-e49a-4fe9-b64e-27687028d858-PhotoRoom_1-min_lpgkee.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="hump_down_curve">
+        <img
+          src="https://res.cloudinary.com/dqtcytdrk/image/upload/v1706413830/My%20Portfolio/hump_up_wave_ozkp0w.svg"
+          alt=""
+        />
+      </div>
+      <div class="head_elem">
+        <div class="h_container">
+          <p id="f_note">© All rights reserved – MohammadAzeem</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // When the user scrolls the page, execute myFunction
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      // Get the header
+      var header = document.querySelector(".focus");
+      var scrollabe = document.querySelector(".main1");
+
+      // Get the offset position of the navbar
+      var sticky = header.offsetTop;
+
+      // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+          scrollabe.classList.add("scroll_state_main1");
+        } else {
+          header.classList.remove("sticky");
+          scrollabe.classList.remove("scroll_state_main1");
+        }
+      }
+
+      //   const scroll_container = document.querySelector("#scroll_container");
+      //   const focus_container = document.querySelector(".focus");
+
+      //   window.addEventListener("scroll", (e) => {
+      //     if (window.scrollY >= 196.6) {
+      //       scroll_container.classList.add("scrolled");
+      //       focus_container.classList.add("focus_stick");
+      //       e.preventDefault();
+      //     } else {
+      //       scroll_container.classList.remove("scrolled");
+      //       focus_container.classList.remove("focus_stick");
+      //     }
+      //   });
+
+      //   scroll_container.addEventListener("scroll", () => {
+      //     if (window.scrollY <= 200) {
+      //       scroll_container.classList.remove("scrolled");
+      //       focus_container.classList.remove("focus_stick");
+      //     }
+      //   });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var text = "Explore my curated collection of projects ";
+        var index = 0;
+        var typingSpeed = 50; // Adjust typing speed (milliseconds per character)
+
+        function type() {
+          if (index < text.length) {
+            document.getElementById("typing-text").textContent +=
+              text.charAt(index);
+            index++;
+            setTimeout(type, typingSpeed);
+          }
+        }
+
+        type();
+      });
+    </script>
+  </body>
+</html>
