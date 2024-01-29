@@ -367,16 +367,18 @@
 
     .sticky {
       position: fixed;
-      top: -18px;
+      top: -17px;
       left: 0px;
+      /* background-color: white; */
       width: 100%;
       z-index: 10;
-      padding: 11px 10px 45px 10px;
-      background-image: linear-gradient(179deg, #ffffff, #ffffff, #ffffff, #ffffff00);
+      padding: 11px 10px 6px 10px;
+      box-shadow: 0px 7px 22px 12px #ffffffe6;
+      background-image: linear-gradient(179deg, #ffffff, #ffffff, #ffffffdb);
     }
     
     .scroll_state_main1{
-      padding-top: 170px;
+      padding-top: 106px;
     }
   }
   
