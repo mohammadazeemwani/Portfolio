@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish:wght@300&family=Playfair+Display:wght@700&family=Caveat&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/myWork/index.css" />
+    <link rel="stylesheet" href="/myWork/style.css" />
   </head>
   <body>
     <div class="header">
@@ -57,25 +57,7 @@
         <p id="typing-text"></p>
       </div>
       <div class="main">
-        <div class="main1" id="scroll_container">
-        <% projects.forEach(project => { %>
-          <a class="p_container" href="<%=project.reference_link%>">
-            <div class="p_img">
-              <img
-                src="<%=project.img_url%>"
-              />
-            </div>
-            <div class="p_title pc">
-              <h2><%=project.title%></h2>
-            </div>
-            <div class="p_description pc">
-              <p>
-                <%=project.description%>
-              </p>
-            </div>
-          </a>
-        <% }); %>
-        </div>
+        <div class="main1" id="scroll_container"></div>
 
         <div class="main2">
           <div class="main2_wrap">
@@ -126,12 +108,11 @@
         </div>
       </div>
     </div>
-
+    <script src="/myWork/uploadPorjects.js"></script>
     <script>
-
-      document.querySelector('.my_logo').addEventListener('click', () => {
+      document.querySelector(".my_logo").addEventListener("click", () => {
         window.location.href = "/";
-            });
+      });
 
       // When the user scrolls the page, execute myFunction
       window.onscroll = function () {

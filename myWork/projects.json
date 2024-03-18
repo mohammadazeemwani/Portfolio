@@ -1,0 +1,44 @@
+[
+    {
+      "project_number": 6,
+      "reference_link": "https://meekat.mohammadazeem.in",
+      "img_url": "./assets/6.webp",
+      "title": "Meekat",
+      "description": "This is a prayer-time application. For the entire state of Jammnu&Kashmir with Built-in Notificatioin system."
+    },
+    {
+      "project_number": 5,
+      "reference_link": "https://lucent-babka-4864c1.netlify.app/",
+      "img_url": "./assets/5.webp",
+      "title": "Guess Game",
+      "description": "Here you have to guess the number in the question-mark. Remb each wrong move will cost you one score point. Have fun!"
+    },
+    {
+      "project_number": 4,
+      "reference_link": "https://rfu2o-biaaa-aaaag-acedq-cai.icp0.io/",
+      "img_url": "./assets/4.webp",
+      "title": "D-Bank",
+      "description": "This application will give you an understanding of how a decentralized application looks like and it emphasises the concept of Orthogonal Persistence"
+    },
+    {
+      "project_number": 3,
+      "reference_link": "https://zesty-mermaid-bcba47.netlify.app/",
+      "img_url": "./assets/3.webp",
+      "title": "Drum Kit",
+      "description": "Now play drum online no need to buy entire kit.Leverage the online version of drum kit"
+    },
+    {
+      "project_number": 2,
+      "reference_link": "https://comforting-macaron-b08477.netlify.app/",
+      "img_url": "./assets/2.webp",
+      "title": "Move It",
+      "description": "A home page for an Items moving website which provides a sleek User Interface as well as Experience"
+    },
+    {
+      "project_number": 1,
+      "reference_link": "https://frolicking-bonbon-91fbeb.netlify.app/",
+      "img_url": "./assets/1.webp",
+      "title": "Summary",
+      "description": "This is highly responsive and efficiency elevated summary board designed to represent data on any kind of screen sizes "
+    }
+  ]

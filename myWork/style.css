@@ -234,6 +234,7 @@
   
   .p_container:hover {
     box-shadow: 0 0 16px 6px #3a3f4747;
+    transform: scale(1.015);
   }
   
   .p_container:active {
