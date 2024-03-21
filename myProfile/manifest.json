@@ -4,8 +4,8 @@
   "description": "Profile of Mohammad Azeem || Developer",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#3498db",
+  "background_color": "#ffe3bb",
+  "theme_color": "#ffe3bb",
   "icons": [
     {
       "src": "/myProfile/assets/azeem_icon_192.png",
