@@ -76,6 +76,12 @@ img {
   max-width: 100%;
   display: inline-block;
 }
+
+.head_link a:active, .head_link a:focus-visible{
+  border-radius: 11px;
+  border: 3px dashed #1b1b5a;
+}
+
 .w-button {
   color: #fff;
   line-height: inherit;
@@ -496,7 +502,8 @@ p {
     min-width: 0;
   }
   .link-underline {
-    width: auto;
+    
+    max-width: 140px;
     margin-top: 0;
     margin-bottom: 8px;
     margin-right: 0;
@@ -504,8 +511,14 @@ p {
     display: inline-block;
   }
   .link-underline.under2 {
+    max-width: 119px;
     margin-right: 0;
   }
+
+  .link-underline.und1{
+    max-width: 87px;
+  }
+
   .nav-menu {
     z-index: 0;
     background-color: var(--ham-open-color);
@@ -523,7 +536,7 @@ p {
     overflow: visible;
   }
   .underline-link-svg {
-    width: 61%;
+    width: 100%;
     max-width: 100%;
     display: block;
   }
@@ -605,6 +618,7 @@ p {
   }
   .link {
     display: inline-block;
+    width: 100%;
   }
   .container.hero {
     margin-bottom: 30px;
@@ -779,7 +793,7 @@ p {
     font-size: 16px;
   }
   .link-underline {
-    width: 40%;
+    /* width: 40%; */
     min-width: 0;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -788,8 +802,16 @@ p {
     padding-right: 0;
   }
   .link-underline.und1 {
-    padding-right: 20px;
+    max-width: 63px;
+    padding: 0;
+    margin-right: 20px;
   }
+
+  .link-underline.under2 {
+    max-width: 88px;
+    margin-right: 0;
+  }
+
   .nav-menu {
     flex-flow: wrap;
     align-content: center;
@@ -802,10 +824,10 @@ p {
     display: flex;
   }
   .underline-link-svg {
-    width: 70%;
+    width: 100%;
   }
   .underline-link-svg.svg2 {
-    width: 82%;
+    width: 100%;
   }
   .button {
     min-width: 120px;
