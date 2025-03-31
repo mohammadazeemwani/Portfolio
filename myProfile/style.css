@@ -230,7 +230,6 @@ p {
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   align-items: center;
-  padding-top: 11px;
   display: flex;
   padding: 21px 30px 20px 30px !important;
 }
