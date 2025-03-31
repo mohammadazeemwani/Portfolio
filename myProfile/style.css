@@ -77,10 +77,10 @@ img {
   display: inline-block;
 }
 
-.head_link a:active, .head_link a:focus-visible{
+/* .head_link a:active, .head_link a:focus-visible{
   border-radius: 11px;
   border: 3px dashed #1b1b5a;
-}
+} */
 
 .w-button {
   color: #fff;
@@ -232,6 +232,7 @@ p {
   align-items: center;
   padding-top: 11px;
   display: flex;
+  padding: 15px 30px 20px 30px !important;
 }
 .container.project1 {
   flex-direction: row;
